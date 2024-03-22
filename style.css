@@ -10,8 +10,7 @@ header {
   position: fixed;
   display: flex;
   padding: 50px;
-  z-index: 1; /*header appears on top of sections*/
-  width: 100vh;
+  z-index: 1;
 }
 
 header h1 {
@@ -27,7 +26,6 @@ nav {
 nav a {
   text-decoration: none;
   margin: 0px 25px;
-  font-size: 16px;
 }
 
 nav a:hover,

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
     <title>springtide</title>
     <link
       rel="icon"
@@ -13,12 +13,17 @@
   </head>
   <body>
     <header>
+      <img
+        id="emoji"
+        src="https://static-00.iconduck.com/assets.00/tulip-emoji-1924x2048-gpvri83b.png"
+        alt="emoji"
+      />
       <h1>springtide travel</h1>
       <nav>
-        <a href="#">home</a>
-        <a href="#planning">planning</a>
-        <a href="#flights">flights</a>
-        <a href="#destination">destinations</a>
+        <a id="home-button" href="#">home</a>
+        <a id="planning-button" href="#planning">planning</a>
+        <a id="flights-button" href="#flights">flights</a>
+        <a id="destinations-button" href="#destination">destinations</a>
       </nav>
     </header>
     <main>

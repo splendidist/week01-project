@@ -11,6 +11,7 @@ header {
   display: flex;
   padding: 50px;
   z-index: 1;
+  width: 100vw;
 }
 
 header img {
@@ -27,6 +28,7 @@ nav {
   display: flex;
   align-items: center;
   padding-left: 25px;
+  flex-wrap: wrap;
 }
 
 nav a {
@@ -50,21 +52,21 @@ div a:hover {
 }
 
 .feature {
-  background-image: url("https://images.unsplash.com/photo-1618813690183-c8a0e5de80f0?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("./assets/flower-field.avif");
 }
 
 .section-one {
-  background-image: url("https://images.unsplash.com/photo-1624188062166-2efb13295650?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("./assets/ocean.avif");
 }
 
 .section-two {
-  background-image: url("https://images.unsplash.com/photo-1682685797703-2bb22dbb885b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("./assets/hiking-cliffs.avif");
 }
 
 section div {
   position: absolute;
-  bottom: 250px;
-  left: 50px;
+  bottom: 25%;
+  left: 5%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

@@ -11,21 +11,17 @@ const flightsBtn = document.getElementById("flights-button");
 const destinationsBtn = document.getElementById("destinations-button");
 
 flightsBtn.addEventListener("click", function () {
-  emojiImg.src =
-    "https://static-00.iconduck.com/assets.00/dolphin-emoji-953x1024-vjjv36x9.png";
+  emojiImg.src = "./assets/dolphin.png";
 });
 
 homeBtn.addEventListener("click", function () {
-  emojiImg.src =
-    "https://static-00.iconduck.com/assets.00/tulip-emoji-1924x2048-gpvri83b.png";
+  emojiImg.src = "./assets/flower.png";
 });
 
 planningBtn.addEventListener("click", function () {
-  emojiImg.src =
-    "https://static-00.iconduck.com/assets.00/tulip-emoji-1924x2048-gpvri83b.png";
+  emojiImg.src = "./assets/flower.png";
 });
 
 destinationsBtn.addEventListener("click", function () {
-  emojiImg.src =
-    "https://em-content.zobj.net/source/skype/289/hiking-boot_1f97e.png";
+  emojiImg.src = "./assets/hiking.png";
 });
